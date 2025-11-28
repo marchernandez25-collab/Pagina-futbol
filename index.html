@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pàgina de Futbol</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: #1e90ff;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background:#0b63c7;
+      padding:10px;
+      text-align:center;
+    }
+    nav a {
+      color:white;
+      margin:0 15px;
+      text-decoration:none;
+      font-weight:bold;
+    }
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 20px;
+      background: white;
+      margin-bottom: 20px;
+    }
+    .noticia {
+      border:1px solid #ddd;
+      padding:15px;
+      border-radius:8px;
+      background:#fafafa;
+    }
+    .noticies {
+      display:grid;
+      grid-template-columns:repeat(auto-fit, minmax(250px, 1fr));
+      gap:20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Pàgina de Futbol</h1>
+  </header>
+
+  <nav>
+    <a href="#introduccio">Introducció</a>
+    <a href="#lligues">Lligues</a>
+    <a href="#noticies">Notícies</a>
+  </nav>
+
+  <div class="container" id="introduccio">
+    <h2>Introducció</h2>
+    <p>Hola, som en Marc Hernandez i en Xavier Roca. Aquesta pàgina anirà sobre els equips més famosos de totes les lligues possibles (Champions League, Lliga Espanyola...). Posarem notícies i tot tipus de contingut relacionat amb el futbol.</p>
+  </div>
+
+  <div class="container" id="lligues">
+    <h2>Lligues Famoses</h2>
+    <ul>
+      <li><strong>Champions League</strong> – La competició europea més prestigiosa.</li>
+      <li><strong>Lliga Espanyola (LaLiga)</strong> – Una de les lligues més seguides del món.</li>
+      <li><strong>Premier League</strong> – La lliga anglesa, molt competitiva.</li>
+      <li><strong>Serie A</strong> – La lliga italiana plena d’història.</li>
+      <li><strong>Bundesliga</strong> – La lliga alemanya, coneguda per l’ambient als estadis.</li>
+    </ul>
+  </div>
+
+  <div class="container" id="noticies">
+    <h2>Notícies Recents</h2>
+    <div class="noticies">
+      <div class="noticia">
+        <h3>Notícia 1</h3>
+        <p>Properament podreu llegir notícies actuals dels millors equips del món.</p>
+      </div>
+      <div class="noticia">
+        <h3>Notícia 2</h3>
+        <p>Actualitzarem aquesta secció amb informació nova i interessant.</p>
+      </div>
+      <div class="noticia">
+        <h3>Notícia 3</h3>
+        <p>Estigueu atents a les novetats del món del futbol!</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
